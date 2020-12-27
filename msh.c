@@ -1,6 +1,7 @@
 /*
   Name: Inara Rupani
   ID: 1001534052
+ Description: custom Unix shell command, allowing user to enter at most 10 parameters
  */
 #define _GNU_SOURCE
 
