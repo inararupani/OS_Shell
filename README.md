@@ -2,11 +2,11 @@
 In this assignment We create our own shell program, Mav shell (msh), similar to bourne shell (bash), c-shell (csh), or korn shell (ksh). 
 It will accept commands, fork a child process and execute those commands. The shell, like csh or bash, will run and accept commands until the user exits the shell.
 
-#Compilation and Run instruction
+## Compilation and Run instruction
 - Should compile on omega.uta.edu
 - gcc -Wall msh.c -o msh —std=c99
 
-#Functional Requirements
+## Functional Requirements
 - Requirement 1: Your program will print out a prompt of msh> when it is ready to accept input
 - Requirement 2: If the command is not supported your shell shall print the invalid command followed by “: Command not found.”
 - Requirement 3: If the command option is an invalid option then your shell shall print the command followed by “: invalid option --” and the option that was invalid as well as a prompt to try —help. exec() outputs this automatically make sure you
